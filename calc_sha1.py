@@ -27,7 +27,7 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         target_file = sys.argv[1]
     else:
-        target_file = "sample.txt" # デフォルトのファイル名
+        target_file = "sample.txt" # デフォルトのファイル名 (SHA-1: fd0d40481601165e5a5a5d4c1202481dac2cbd86)
         
     print(f"対象ファイル: {target_file}")
     
